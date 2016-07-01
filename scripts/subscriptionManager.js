@@ -1,6 +1,6 @@
 // require the user module, main component of the Withings connector
-var userClient = require("withings/user.js");
-var common = require("withings/common.js");
+var userClient = require("modules/withings/user.js");
+var common = require("modules/withings/common.js");
 
 // retrieve the values of the action and userid parameters from the request
 var action = request.parameters.action;
