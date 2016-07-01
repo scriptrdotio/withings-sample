@@ -1,5 +1,5 @@
 // require the user module, main component of the Withings connector
-var userModule = require("withings/user.js");
+var userModule = require("modules/withings/user.js");
 try {
   
   // retrieve the parameters that are sent by Withings from the incoming request
